@@ -202,3 +202,5 @@ Download all images from a website
 Download all videos from a website
 Download all PDF files from a website
 $ wget -r -A .pdf http://some-site.com/
+
+$ wget --mirror --page-requisites --convert-link --no-clobber --no-parent --domains <domain name> <website url> 
